@@ -1,0 +1,19 @@
+@media (max-width: 1697px) {
+  #newsletter {
+    padding: 0 15%;
+  }
+}
+
+@media (max-width: 975px) {
+  #showcase {
+    padding: 2rem 2rem;
+  }
+  #showcase .showcase-container {
+    top: 17%;
+    width: 100%;
+  }
+  #newsletter {
+    padding: 0 0;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
