@@ -20,6 +20,7 @@ a {
 }
 // Section 1 : Navbar
 nav {
+  text-shadow: black 1px 1px 5px;
   position: fixed;
   padding: 3rem;
   background-color: rgba(26, 20, 20, 0);
@@ -55,7 +56,6 @@ nav {
   .showcase-container {
     position: absolute;
     top: 30%;
-    width: 60%;
 
     h1 {
       font-size: 6rem;
@@ -67,6 +67,7 @@ nav {
     }
 
     p {
+      width: 60%;
       margin-top: 1rem;
       font-size: 2rem;
     }

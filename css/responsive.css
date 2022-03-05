@@ -10,13 +10,45 @@
   }
   #showcase .showcase-container {
     top: 17%;
-    width: 100%;
+  }
+  #showcase .showcase-container h1 {
+    font-size: 5rem;
+  }
+  #showcase .showcase-container h2 {
+    padding-top: 1rem;
+    font-size: 3rem;
   }
   #showcase .showcase-container p {
+    width: 100%;
     font-size: 1.3rem;
   }
+  #showcase .showcase-container #identity {
+    padding-bottom: 1rem;
+  }
+  #showcase .showcase-container #showcase-btn {
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    width: fit-content;
+  }
   #newsletter {
+    display: flex;
+    flex-direction: column;
     padding: 0 0;
+    height: fit-content;
+  }
+  #newsletter h1 {
+    padding: 0.9rem;
+    font-size: 1.2rem;
+  }
+  #newsletter form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+  }
+  #newsletter form #newsl-email {
+    width: 70%;
   }
   #content .content-grid {
     padding: 0;

@@ -10,15 +10,54 @@
     padding: 2rem 2rem;
     .showcase-container {
       top: 17%;
-      width: 100%;
+
+      h1 {
+        font-size: 5rem;
+      }
+
+      h2 {
+        padding-top: 1rem;
+        font-size: 3rem;
+      }
 
       p {
+        width: 100%;
         font-size: 1.3rem;
+      }
+
+      #identity {
+        padding-bottom: 1rem;
+      }
+
+      #showcase-btn {
+        display: flex;
+        align-self: center;
+        flex-direction: row;
+        width: fit-content;
       }
     }
   }
   #newsletter {
+    display: flex;
+    flex-direction: column;
     padding: 0 0;
+    height: fit-content;
+
+    h1 {
+      padding: 0.9rem;
+      font-size: 1.2rem;
+    }
+
+    form {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 1rem;
+
+      #newsl-email {
+        width: 70%;
+      }
+    }
   }
 
   #content {
