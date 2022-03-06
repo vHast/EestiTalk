@@ -78,4 +78,17 @@
 
     }
   }
+
+  #exbar {
+    display: none;
+  }
+
+  #offbar {
+    margin: 0;
+    width: 100%;
+
+    .lesson {
+      margin: 0 10%;
+    }
+  }
 }
