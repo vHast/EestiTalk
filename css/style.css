@@ -249,6 +249,10 @@ nav #logo-container a {
   color: white;
 }
 
+#offbar .lesson #secondword {
+  color: white;
+}
+
 #offbar .lesson p {
   font-size: 1.4rem;
 }

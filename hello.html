@@ -14,7 +14,7 @@
     <link rel="icon" type="favicon-16x16" href="/favicon.ico">
   </head>
 <body>
-  
+    <script src="/script.js"></script>
     <!-- Section 4: Lessons-->
     <div class="boardcontainer">
     <section id="exbar">
@@ -40,8 +40,8 @@
 
         <div class="doublecolumn">
           <div class="lessoncontent">
-            <p class="firstword column">Good morning!</p>
-            <p class="secondword column">Tere hommikust!</p>
+            <p class="firstword column" onmouseover="hoverWord(this)" onmouseout="outHoverWord(this)">Good morning!</p>
+            <p id="targetHover" class="secondword column">Tere hommikust!</p>
           </div>
           <div class="lessoncontent">
             <p class="firstword column">Tere päevast!</p>
