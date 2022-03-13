@@ -239,7 +239,7 @@ nav #logo-container a {
   display: flex;
   flex-direction: column;
   margin: 0 2%;
-  padding-top: 2rem;
+  padding: 2rem 0rem;
   text-align: center;
 }
 
@@ -278,8 +278,12 @@ nav #logo-container a {
   display: flex;
 }
 
+#lasthello {
+  padding-bottom: 2rem;
+}
+
 footer {
-  margin-top: 3rem;
+  border-top: 2px solid white;
   display: flex;
   align-items: center;
   justify-content: center;

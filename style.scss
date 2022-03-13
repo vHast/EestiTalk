@@ -250,7 +250,7 @@ nav {
     display: flex;
     flex-direction: column;
     margin: 0 2%;
-    padding-top: 2rem;
+    padding: 2rem 0rem;
     text-align: center;
 
     h1 {
@@ -290,8 +290,11 @@ nav {
   display: flex;
 }
 
-footer {
-  margin-top: 3rem;
+#lasthello {
+  padding-bottom: 2rem;
+}
+footer {  
+  border-top: 2px solid white;
   display: flex;
   align-items: center;
   justify-content: center;
