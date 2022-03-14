@@ -20,6 +20,8 @@ a {
 
 .whitecontent {
   color: white;
+  padding-top: 2rem;
+  font-size: 1.4rem;
 }
 
 nav {
@@ -254,11 +256,6 @@ nav #logo-container a {
 }
 
 #offbar .lesson p {
-  font-size: 1.4rem;
-}
-
-#offbar .lesson #firstparagraph {
-  padding-top: 2rem;
   font-size: 1.4rem;
 }
 
