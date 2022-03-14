@@ -278,10 +278,16 @@ nav {
       .lessoncontent{ 
         height: 4rem;
         display: flex;
-        justify-content: space-evenly;
         align-content: center;
         align-items: center;
+        justify-content: center;
 
+        .firstword {
+          width: 50%;
+        }
+        .secondword {
+          width: 50%;
+        }
       }
     }
   }
@@ -303,6 +309,7 @@ footer {
   height: 4rem;
   background-color: black;
   color: white;
+  text-align: center;
 
 }
     

@@ -75,5 +75,8 @@
   #offbar .lesson {
     margin: 0 10%;
   }
+  #offbar .lesson .doublecolumn {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=responsive.css.map */
