@@ -42,6 +42,14 @@ a {
   background-color: #bd8888;
 }
 
+.fifthbckg {
+  background-color: #fff5bb;
+}
+
+.fifthbckgtranslated {
+  background-color: #bdb388;
+}
+
 .whitecontent {
   color: white;
   padding-top: 2rem;
@@ -252,6 +260,10 @@ nav #logo-container a {
 
 #exbar :nth-child(even) {
   background-color: #0e0e31;
+}
+
+#exbar :nth-child(10) {
+  background-color: #570000 !important;
 }
 
 #offbar {
