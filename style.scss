@@ -19,6 +19,14 @@ a {
   color: rgb(34, 34, 255);
 }
 
+.redcolorspan {
+  color: red;
+}
+
+.secondarybkg {
+  background-color: rgb(233, 233, 233);
+}
+
 .whitecontent {
   color: white;
   padding-top: 2rem;
@@ -276,7 +284,7 @@ nav {
       height: fit-content;
 
       .lessoncontent{ 
-        height: 4rem;
+        min-height: 4rem;
         display: flex;
         align-content: center;
         align-items: center;
@@ -287,6 +295,7 @@ nav {
         }
         .secondword {
           width: 50%;
+          color: white;
         }
       }
     }
@@ -313,3 +322,17 @@ footer {
 
 }
     
+#firststeps {
+  display: flex;
+  align-items: center;
+
+  p {
+    max-width: 900px;
+  }
+  .lessoncontainer {
+  display: flex;
+  flex-direction: column;
+  
+  }
+
+}
