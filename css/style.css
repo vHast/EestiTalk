@@ -368,8 +368,13 @@ footer {
   align-items: center;
 }
 
+#testsheet h2 {
+  padding-top: 1rem;
+  max-width: 50rem;
+}
+
 #testsheet .exercise {
-  background-color: #606bff;
+  color: white;
   display: flex;
   justify-content: center;
   flex-direction: column;
