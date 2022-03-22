@@ -114,6 +114,11 @@ nav #logo-container a {
   padding-bottom: 2rem;
 }
 
+#showcase .showcase-container #identity a i {
+  border: 1px solid white;
+  margin-left: 0.5rem;
+}
+
 #showcase .showcase-container #showcase-btn {
   width: 4rem;
   font-size: 1.4rem;
