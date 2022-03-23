@@ -408,4 +408,12 @@ footer {
 #testsheet .exercise .result {
   display: none;
 }
+
+.answercheck {
+  display: none !important;
+}
+
+.wrong {
+  color: red;
+}
 /*# sourceMappingURL=style.css.map */

@@ -51,8 +51,6 @@ a {
   background-color: rgb(189, 179, 136);
 }
 
-
-
 .whitecontent {
   color: white;
   padding-top: 2rem;
@@ -424,7 +422,13 @@ footer {
       display: none;
     }
   }
-
-  
 }
 
+// Test utilities 
+
+.answercheck {
+  display: none !important;
+}
+.wrong {
+  color: red;
+}
