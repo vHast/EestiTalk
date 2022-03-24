@@ -14,7 +14,6 @@
     <link rel="icon" type="favicon-16x16" href="/favicon.ico">
   </head>
 <body>
-    <script src="/script.js"></script>
     <!-- Section 4: Lessons-->
     <div class="boardcontainer">
     <section id="exbar">
@@ -36,55 +35,58 @@
       <div class="lesson">
         <h1>Hello!</h1>
         <p class="whitecontent">First, we are going to learn the ways to say hello!</p>
-        <p class ="whitecontent">These are the basic expressions to greet someone, hover on the word or click to receive the answer.</p>
+        <p class ="whitecontent">These are the basic expressions to greet someone, click to receive the answer.</p>
 
         <div class="doublecolumn">
           <div class="lessoncontent">
-            <p class="firstword column" onmouseover="hoverWord(this)" onmouseout="outHoverWord(this)">Good morning!</p>
-            <p id="targetHover" class="secondword column">Tere hommikust!</p>
+            <p class="firstword column">Good morning!</p>
+            <p id="hommikust" class="secondword column">Tere hommikust!</p>
           </div>
           <div class="lessoncontent">
-            <p class="firstword column" onmouseover="hoverWord(this)" onmouseout="outHoverWord(this)">Good afternoon!</p>
-            <p class="secondword column">Tere päevast!</p>
+            <p class="firstword column">Good afternoon!</p>
+            <p id="paevast" class="secondword column">Tere päevast!</p>
           </div>
           <div class="lessoncontent">
             <p class="firstword column">Good evening!</p>
-            <p class="secondword column">Tere õhtust!</p>
+            <p id="ohtust" class="secondword column">Tere õhtust!</p>
           </div>  
         </div>
+        <a  id="revealdays" class ="reveal-btn">Reveal Content</a>
 
         <p class="whitecontent">Here are the days of the week, note that the name of the day goes always before (paev), except on Friday (Reede)</p>
 
         <div class="doublecolumn">
           <div class="lessoncontent">
             <p class="firstword column">Monday</p>
-            <p class="secondword column">Esmaspäev</p>
+            <p id="esmas" class="secondword column">Esmaspäev</p>
           </div>
           <div class="lessoncontent">
             <p class="firstword column">Tuesday</p>
-            <p class="secondword column">Teisipäev</p>
+            <p id="teisi"class="secondword column">Teisipäev</p>
           </div>
           <div class="lessoncontent">
             <p class="firstword column">Wednesday</p>
-            <p class="secondword column">Kolmapäev</p>
+            <p id="kolma"class="secondword column">Kolmapäev</p>
           </div>
           <div class="lessoncontent">
             <p class="firstword column">Thursday</p>
-            <p class="secondword column">Neljapäev</p>
+            <p id="nelja" class="secondword column">Neljapäev</p>
           </div>
           <div class="lessoncontent">
             <p class="firstword column">Friday</p>
-            <p class="secondword column">Reede</p>
+            <p id="ree" class="secondword column">Reede</p>
           </div>
           <div class="lessoncontent">
             <p class="firstword column">Saturday</p>
-            <p class="secondword column">Laupäev</p>
+            <p id="lau" class="secondword column">Laupäev</p>
           </div>
           <div class="lessoncontent">
             <p class="firstword column">Sunday</p>
-            <p class="secondword column">Pühapäev</p>
+            <p id="puha" class="secondword column">Pühapäev</p>
           </div>
         </div>
+
+        <a  id="revealweeks" class ="reveal-btn">Reveal Content</a>
 
         <p class="whitecontent">In order to say goodbye we can say the next expressions</p>
 
@@ -202,5 +204,6 @@
       <footer> &copy;Federico Alvarez 2022 | Frontend Developer & Web Designer</footer>
     </section>
   </div>
+  <script src="/script.js"></script>
 </body>
 </html>
